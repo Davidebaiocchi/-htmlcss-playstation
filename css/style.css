@@ -1,0 +1,76 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+.header-container {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.first-section-footer {
+    background-color: black;
+    height: 30px; 
+}
+
+.logo {
+    width: 80px;
+}
+
+.second-section-footer {
+    height: 60px;
+    background-color: red;
+}
+
+/* main */
+main {
+    padding-top: 90px;
+}
+
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    height: 670px;
+    background-size: cover;
+}
+
+.play5 {
+  height: 70%;
+}
+
+.card-5-1 {
+    height:10%;
+}
+
+.row-5 {
+    display: flex;
+    justify-content: space-between  ;
+}
+
+
+
+
+
+
+/* commons */
+.border0 {
+    border: 0;
+}
+
+main .card img {
+    border-radius: 30px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-x-10 {
+    margin: 0 10px;
+}
