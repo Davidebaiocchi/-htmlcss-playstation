@@ -26,7 +26,22 @@ body {
 
 .second-section-footer {
     height: 60px;
-    background-color: red;
+    background-color: white;
+    line-height: 60px;
+}
+
+nav li {
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header i {
+    position: relative;
+    bottom: 1px;
+    font-size: 14px;
+    color: rgb(184, 184, 184);
 }
 
 /* main */
@@ -41,16 +56,30 @@ main {
 }
 
 .play5 {
-  height: 70%;
+  height: 40%;
 }
 
-.card-5-1 {
-    height:10%;
+.jumbotron-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 670px;
+    background-size: cover;
 }
 
-.row-5 {
-    display: flex;
-    justify-content: space-between  ;
+.jumbotron-3 {
+    background-color: rgb(155, 155, 155);
+    height: 450px;
+}
+
+.giochi-mese {
+    height: 450px;
+}
+
+.logo-plus {
+    max-height: 120px;
+}
+
+h2, h3 {
+    font-weight: 700;
 }
 
 
@@ -67,10 +96,68 @@ main .card img {
     border-radius: 30px;
 }
 
-.m-b-20 {
-    margin-bottom: 20px;
+.m-b-50 {
+    margin-bottom: 50px;
+}
+
+.p-t-40 {
+    padding-top: 40px;
+}
+
+.p-b-40 {
+    padding-bottom: 40px;
 }
 
 .m-x-10 {
     margin: 0 10px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.btn-blu {
+    background-color: rgb(45, 100, 230);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.btn-white {
+    background-color: rgb(241, 235, 235);
+    color: rgb(0, 78, 180);
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 200px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.btn-accedi {
+    position: relative;
+    bottom: 3px;
+}
+
+p {
+    font-weight: 700;
+}
+
+.btn-search {
+    font-size: 25px;
+    color: black;
+}
+
+
+
+
+/* EFFETTI */
+/* effetto bordo bottom con hover accessori play5 */
+.border-layover:hover{
+    border-bottom: 3px solid rgb(45, 100, 230);
+}
+
+li:hover {
+    color: rgb(0, 140, 255);
 }
