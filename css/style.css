@@ -16,16 +16,17 @@ body {
     z-index: 1;
 }
 
-.first-section-footer {
+.first-section-header {
     background-color: black;
     height: 30px; 
 }
 
 .logo {
     width: 80px;
+    margin-right: 50px;
 }
 
-.second-section-footer {
+.second-section-header {
     height: 60px;
     background-color: white;
     line-height: 60px;
@@ -53,17 +54,15 @@ main {
 
 .jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    height: 670px;
     background-size: cover;
 }
 
-.play5 {
-  height: 40%;
+.img-ps5{
+  height: 80%;
 }
 
 .jumbotron-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: 670px;
     background-size: cover;
 }
 
@@ -171,8 +170,6 @@ main .card img {
     margin: 0 auto;
     font-weight: 500;
 }
-
-
 
 p {
     font-weight: 700;
