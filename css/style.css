@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+
 /* header */
 .header-container {
     position: fixed;
@@ -44,6 +45,7 @@ header i {
     color: rgb(184, 184, 184);
 }
 
+
 /* main */
 main {
     padding-top: 90px;
@@ -65,16 +67,24 @@ main {
     background-size: cover;
 }
 
+.logo-it2 {
+    height: 25%;
+}
+
 .jumbotron-3 {
     background-color: rgb(155, 155, 155);
     height: 450px;
+}
+
+.bg-blue {
+    background-color: rgb(9, 9, 47);
 }
 
 .giochi-mese {
     height: 450px;
 }
 
-.logo-plus {
+.logo-plus{
     max-height: 120px;
 }
 
@@ -83,8 +93,20 @@ h2, h3 {
 }
 
 
+/* footer */
+.logo-footer {
+    height: 100px;
+    color: white;
+}
 
+.bg-blue-light {
+    background-color: rgb(0, 89, 255);
+}
 
+footer nav li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
 
 /* commons */
@@ -140,6 +162,18 @@ main .card img {
     bottom: 3px;
 }
 
+.btn-orange {
+    background-color: rgb(255, 86, 8);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 200px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+
+
 p {
     font-weight: 700;
 }
@@ -149,6 +183,9 @@ p {
     color: black;
 }
 
+.over-opacity {
+    opacity: 0.7;
+}
 
 
 
@@ -156,8 +193,34 @@ p {
 /* effetto bordo bottom con hover accessori play5 */
 .border-layover:hover{
     border-bottom: 3px solid rgb(45, 100, 230);
+    opacity: 1;
 }
 
 li:hover {
     color: rgb(0, 140, 255);
+}
+
+.over .card:hover {
+    border-top: 5px solid rgb(0, 140, 255);
+    border-bottom: 5px solid rgb(0, 140, 255);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.bg-dark .card:hover {
+    border-top: 5px solid rgb(0, 140, 255);
+    border-bottom: 5px solid rgb(0, 140, 255);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.card-3 .card:hover {
+    border-top: 5px solid rgb(0, 140, 255);
+    border-bottom: 5px solid rgb(0, 140, 255);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.card-app{
+    cursor: pointer;
 }
