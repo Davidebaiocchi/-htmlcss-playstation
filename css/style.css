@@ -37,8 +37,8 @@ body {
 
 nav li {
     font-weight: 500;
-    font-size: 16px;
-    margin-right: 20px;
+    font-size: 14px;
+    margin-right: 5px;
     cursor: pointer;
     font-weight: 600;
 }
@@ -74,6 +74,15 @@ main {
 
 .img-ps5 {
     margin-right: 200px;
+    width: 100%;
+}
+
+main img {
+    max-width: 100%;
+}
+
+footer img {
+    max-width: 100%;
 }
 
 .jumbotron-2 {
